@@ -7,25 +7,25 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-04-08 12:51:01 -0500",
+      "minecraft:flower_forest": "2024-04-08 13:01:59 -0500",
       "minecraft:snowy_slopes": "2024-04-08 13:04:45 -0500",
-      "minecraft:taiga": "2024-04-08 12:55:10 -0500",
-      "minecraft:frozen_river": "2024-04-05 09:30:15 -0500",
-      "minecraft:sunflower_plains": "2024-04-08 12:47:43 -0500",
-      "minecraft:birch_forest": "2024-04-08 12:59:00 -0500",
       "minecraft:beach": "2024-04-08 12:51:20 -0500",
       "minecraft:dark_forest": "2024-04-08 12:59:02 -0500",
+      "minecraft:forest": "2024-04-05 08:35:15 -0500",
+      "minecraft:taiga": "2024-04-08 12:55:10 -0500",
       "minecraft:river": "2024-04-05 08:34:35 -0500",
       "minecraft:snowy_plains": "2024-04-05 09:30:08 -0500",
       "minecraft:dripstone_caves": "2024-04-05 09:09:14 -0500",
       "minecraft:snowy_taiga": "2024-04-05 09:30:13 -0500",
-      "minecraft:jagged_peaks": "2024-04-08 13:04:53 -0500",
-      "minecraft:cold_ocean": "2024-04-08 12:51:01 -0500",
-      "minecraft:forest": "2024-04-05 08:35:15 -0500",
-      "minecraft:ocean": "2024-04-08 12:49:07 -0500",
-      "minecraft:flower_forest": "2024-04-08 13:01:59 -0500",
       "minecraft:old_growth_birch_forest": "2024-04-08 12:59:59 -0500",
+      "minecraft:frozen_river": "2024-04-05 09:30:15 -0500",
+      "minecraft:ocean": "2024-04-08 12:49:07 -0500",
+      "minecraft:sunflower_plains": "2024-04-08 12:47:43 -0500",
       "minecraft:meadow": "2024-04-08 12:46:04 -0500",
-      "minecraft:plains": "2024-04-05 08:31:07 -0500"
+      "minecraft:birch_forest": "2024-04-08 12:59:00 -0500",
+      "minecraft:plains": "2024-04-05 08:31:07 -0500",
+      "minecraft:jagged_peaks": "2024-04-08 13:04:53 -0500"
     },
     "done": false
   },
@@ -1291,5 +1291,191 @@
     },
     "done": true
   },
-  "DataVersion": 3463
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2024-04-09 16:14:56 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2024-04-09 16:14:56 -0500"
+    },
+    "done": false
+  },
+  "vanilla_refresh:biome/mountains": {
+    "criteria": {
+      "requirement": "2024-04-09 16:15:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2024-04-09 16:15:48 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/dripstone_caves": {
+    "criteria": {
+      "requirement": "2024-04-09 16:16:34 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/snowy_mountains": {
+    "criteria": {
+      "requirement": "2024-04-09 16:21:58 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2024-04-09 16:22:07 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/meadows": {
+    "criteria": {
+      "requirement": "2024-04-09 16:22:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-04-09 16:30:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-04-09 16:30:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-04-09 16:30:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-04-09 16:29:56 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-04-09 16:29:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-04-09 16:29:53 -0500"
+    },
+    "done": true
+  },
+  "vanilla_refresh:location/the_nether": {
+    "criteria": {
+      "requirement": "2024-04-09 16:29:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-04-09 16:29:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-04-09 16:28:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-04-09 16:29:33 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
 }
