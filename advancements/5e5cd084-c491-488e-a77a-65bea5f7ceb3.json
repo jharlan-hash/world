@@ -334,7 +334,8 @@
     "criteria": {
       "cooked_porkchop": "2024-04-05 15:28:38 +0100",
       "apple": "2024-04-05 14:40:01 +0100",
-      "bread": "2024-04-08 18:49:12 +0100"
+      "bread": "2024-04-08 18:49:12 +0100",
+      "cooked_mutton": "2024-04-12 15:01:50 +0100"
     },
     "done": false
   },
@@ -1622,11 +1623,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-04-10 02:37:41 +0100",
+      "minecraft:piglin": "2024-04-12 14:47:43 +0100",
       "minecraft:enderman": "2024-04-10 02:25:56 +0100",
       "minecraft:magma_cube": "2024-04-10 13:53:49 +0100",
       "minecraft:spider": "2024-04-10 02:26:48 +0100",
       "minecraft:zombie": "2024-04-10 03:11:32 +0100",
-      "minecraft:creeper": "2024-04-10 02:26:41 +0100"
+      "minecraft:creeper": "2024-04-10 02:26:41 +0100",
+      "minecraft:drowned": "2024-04-12 16:58:41 +0100",
+      "minecraft:ghast": "2024-04-12 14:47:35 +0100"
     },
     "done": false
   },
@@ -2275,6 +2279,72 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2024-04-11 20:54:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-04-12 14:47:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-04-12 14:49:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-04-12 14:49:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-04-12 14:49:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2024-04-12 15:06:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-04-12 15:07:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-04-12 15:07:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-04-12 16:54:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-04-12 16:58:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-04-12 16:58:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-04-12 16:58:40 +0100"
     },
     "done": true
   },
